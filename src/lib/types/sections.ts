@@ -1,5 +1,6 @@
 import {
   CTAType,
+  EducationType,
   ExperienceType,
   FeaturedProjectType,
   NavLinkType,
@@ -48,6 +49,10 @@ type SkillType = {
 
 export interface SkillsSectionType extends Section {
   skills: SkillType[];
+}
+
+export interface EducationSectionType extends Section {
+  educations: EducationType[];
 }
 
 export interface ExperienceSectionType extends Section {

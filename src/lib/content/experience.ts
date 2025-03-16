@@ -1,4 +1,5 @@
 import { ExperienceSectionType } from '@/lib/types/sections';
+// import { ExperienceType } from '@/lib/types';
 
 export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
@@ -30,7 +31,7 @@ export const experienceSection: ExperienceSectionType = {
     },
     {
       company: 'Umiya Social Trust',
-      // companyUrl: 'https://umiyasocialvalsad.org/',
+      companyUrl: 'https://umiyasocialvalsad.org/',
       role: 'Program Manager',
       started: 'june 2022',
       upto: 'july 2024',

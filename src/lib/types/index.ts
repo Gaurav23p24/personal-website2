@@ -14,13 +14,21 @@ export type CTAType = {
   sameTab?: boolean;
 };
 
+export type EducationType = {
+  institution: string;
+  institutionUrl: string;
+  degree: string;
+  started: string;
+  upto: string;
+  tasks: string[];
+};
 // env
 export type ExperienceType = {
   role: string;
   company: string;
   companyUrl: string;
-  started: Date | string;
-  upto: Date | 'present' | string;
+  started: string;
+  upto: string;
   tasks: string[];
 };
 

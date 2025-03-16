@@ -3,7 +3,7 @@ import { getId } from '@/lib/utils/helper';
 
 
 import { FaReact, FaNode } from 'react-icons/fa';  // Example for React & Node.js icons
-import { SiReact, SiNodeDotJs } from 'simple-icons-react';  // Example for React & Node.js icons
+// import { SiReact, SiNodeDotJs } from 'simple-icons-react';  // Example for React & Node.js icons
 
 // import { SiTrello, SiJira, SiAsana, SiAgile, SiGithub, SiProductHunt, SiKanban } from 'simple-icons-react';
 

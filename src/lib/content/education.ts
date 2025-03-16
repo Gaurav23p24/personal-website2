@@ -9,11 +9,11 @@ export const educationSection: EducationSectionType = {
       degree: 'Master of Science in Information Technology, concentration in IT Management',
       started: 'August 2024',
       upto: 'May 2026',
-      // details: [
-      //   'Coursework: Software Systems Design & Implementation, Network Based Application Development, Human Centered Design, Big Data Analytics.',
-      //   'Active member of the Product Management Club and Tech Talk Series.',
-      //   'Working as a Maintenance Assistant for Housing & Residence Life',
-      // ],
+      tasks: [
+        'Coursework: Software Systems Design & Implementation, Network Based Application Development, Human Centered Design, Big Data Analytics.',
+        'Active member of the Product Management Club and Tech Talk Series.',
+        'Working as a Maintenance Assistant for Housing & Residence Life',
+      ],
     },
     {
       institution: 'Uka Tarsadia University',
@@ -21,11 +21,7 @@ export const educationSection: EducationSectionType = {
       degree: 'Bachelor of Technology in Information Technology',
       started: 'August 2020',
       upto: 'May 2024',
-      // details: [
-      //   'Graduated with First Class Distinction.',
-      //   'Final year capstone project: Personal Finance Management System.',
-      //   'Lead organizer of tech fests and coding bootcamps.',
-      // ],
+      tasks: [],
     },
     {
       institution: 'Saraswati International School',
@@ -33,11 +29,7 @@ export const educationSection: EducationSectionType = {
       degree: 'Schooling',
       started: 'June 2008',
       upto: 'April 2020',
-      // details: [
-      //   'Coursework: Project Management, Data Science, Cloud Computing, UI/UX Design.',
-      //   'Active member of the Product Management Club and Tech Talk Series.',
-      //   'Working on research project focused on optimizing data pipelines and workflow automation.',
-      // ],
+      tasks: [],
     },
   ],
 };
