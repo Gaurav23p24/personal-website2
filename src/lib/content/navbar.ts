@@ -5,8 +5,10 @@ export const navbarSection: NavbarSectionType = {
   navLinks: [
     { name: 'about', url: '/#about' },
     { name: 'skills', url: '/#skills' },
+    { name: 'education', url: '/#education' },
     { name: 'experience', url: '/#experience' },
-    { name: 'projects', url: '/#projects' },
+    { name: 'projects', url: '/#featured-projects' },
+    { name: 'Articles', url: '/#projects' },
     { name: 'contact', url: '/#contact' },
   ],
   cta: {

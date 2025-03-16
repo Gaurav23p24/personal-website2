@@ -24,18 +24,18 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vatsal Singh, a first-year MCA student at{' '}
+            Hi, my name is Gaurav Patel, a masters student at{' '}
             <Link
-              href="https://bhu.ac.in/"
+              href="https://www.charlotte.edu/"
               target="_blank"
               className="text-accent"
             >
-              Banaras Hindu University
+              University of North Carolina at Charlotte
             </Link>
-            .<br /> I'm an Artist as well as crazy full stack web developer who
-            wants to explore every tech stack.
+            .<br /> Driven by creativity and curiosity, 
+            I approach product management with an AI enhanced mindset and a deep empathy for users.
           </p>
-          <p>
+          {/* <p>
             Fast-forward to today, and I've had the privilege of working at a
             start-up -{' '}
             <Link
@@ -46,10 +46,11 @@ const About = () => {
               Pixelwand
             </Link>
             .
-          </p>
+          </p> */}
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
+          With CAPM and CSM certifications, I focus on supporting teams with practical project management and Agile practices to help ensure projects are delivered smoothly and effectively.          </p>
+          <p>
+          My main focus these days is building projects that matter and actively seeking impactful opportunities in Product Management & Business Analysis.
           </p>
 
           {list && (

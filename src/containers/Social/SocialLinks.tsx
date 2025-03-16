@@ -1,5 +1,6 @@
-import { socialSection } from '@/lib/content/social';
+'use client';
 
+import { socialSection } from '@/lib/content/social';
 import { SocialIcon } from '@/components';
 
 const SocialLinks = ({ className = '' }: { className?: string }) => {

@@ -7,33 +7,32 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://twitter.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  medium: 'https://medium.com/@gauravpatel42',
+  twitter: 'https://twitter.com/mainhoongaurav',
+  github: 'https://github.com/Gaurav23p24',
+  linkedin: 'https://www.linkedin.com/in/gaurav-patel-capm%C2%AE-csm%C2%AE-020189305/',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Gaurav Patel',
+  email: 'gauravpatel41285@gmail.com',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Gaurav Patel',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Gaurav Patel is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
-  image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+  // image:
+  //   'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
+  url: 'https://gauravpatelgbp.netlify.app/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'Gaurav',
+    'Gaurav Patel',
+    '@gauravpatel',
+    'gauravpatel',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Gaurav Portfolio ',
+    'Gaurav Patel Portfolio',
   ],
 };

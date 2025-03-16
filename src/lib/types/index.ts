@@ -24,15 +24,14 @@ export type ExperienceType = {
   tasks: string[];
 };
 
+
 export type ProjectType = {
   id: string;
   name: string;
   url: string;
-  year: number;
   img: string;
-  tags: string[];
-  repo: string;
 };
+
 
 export interface FeaturedProjectType
   extends Omit<ProjectType, 'year' | 'repo'> {

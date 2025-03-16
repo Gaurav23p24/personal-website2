@@ -9,7 +9,7 @@ import { getSectionAnimation } from '@/styles/animations';
 
 const FeaturedProjects = () => {
   return (
-    <Wrapper id="projects" {...getSectionAnimation}>
+    <Wrapper id="featured-projects" {...getSectionAnimation}>
       <div className="mb-20 space-y-3 text-center lg:text-left">
         <h2 className="heading-secondary !mb-0 capitalize">
           {featuredProjectsSection.title}
