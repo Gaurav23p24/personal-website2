@@ -38,6 +38,7 @@ export interface FeaturedProjectType
   description: string;
   repo?: string;
   tasks?: string;
+  tags: string[];
 }
 
 export type StringKeyValueType = {
